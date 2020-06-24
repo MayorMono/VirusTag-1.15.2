@@ -1,0 +1,40 @@
+name: VirusTag
+main: com.meeku.virustag.VirusTag
+version: 1.0
+api-version: 1.13
+commands:
+   vtstart:
+      description: starts a game
+      usage: /vtstart <hunters>
+   vtend:
+      description: stops a game
+      usage: /vtend
+   vtstatus:
+      description: checks the status of the pandemic
+      usage: /vtstatus
+   vtsetradius:
+      description: sets danger radius in range [1,127]
+      usage: /vtsetradius <radius>
+   vtsetduration:
+      description: sets duration in range [1,1200]
+      usage: /vtsetduration <seconds>
+   vtsetamplifier:
+      description: sets amplifier in range [0,5]
+      usage: /vtsetamplifier <amplifier>
+   vttogglemobs:
+      description: toggles infection of mobs
+      usage: /vttogglemobs
+   vtsetborder:
+      description: sets world border length
+      usage: /vtsetborder <length>
+   vtsetgrace:
+      description: sets grace period
+      usage: /vtsetgrace <seconds>
+   vtsettimelimit:
+      description: sets time limit
+      usage: /vtsettimelimit <seconds>
+   vttogglehunters:
+      description: toggles hunter respawn
+   vtsetcompassdelay:
+      description: sets compass tracking delay
+      usage: /vtsetcompassdelay <seconds>
