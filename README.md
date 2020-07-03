@@ -1,7 +1,7 @@
 # VirusTag-1.15.2
 VirusTag is a team tag minigame that takes the social distance mechanic introduced in SocialDistance.
 
-**Rules**
+**Rules** <br/>
 The hunter team has a limited amount of time to eliminate the runner team within the boundaries of the world border. Each hunter has a compass that points to the nearest runner with a set frequency. The game ends when every player in either team is eliminated, or when the time limit expires.
 
 **Commands**
